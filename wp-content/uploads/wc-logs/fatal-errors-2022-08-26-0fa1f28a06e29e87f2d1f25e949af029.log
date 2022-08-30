@@ -1,0 +1,24 @@
+2022-08-26T03:20:36+00:00 CRITICAL Uncaught Error: Call to a member function get_cart() on null in /Applications/XAMPP/xamppfiles/htdocs/van/wp-content/themes/setsail/framework/modules/woocommerce/widgets/woocommerce-dropdown-cart/woocommerce-dropdown-cart.php:37
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/van/wp-includes/widgets.php(1257): SetSailSelectClassWoocommerceDropdownCart->widget(Array, Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/van/wp-includes/rest-api/endpoints/class-wp-rest-widget-types-controller.php(548): the_widget('SetSailSelectCl...', Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/van/wp-includes/rest-api/endpoints/class-wp-rest-widget-types-controller.php(518): WP_REST_Widget_Types_Controller->get_widget_preview('SetSailSelectCl...', Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/van/wp-includes/rest-api/class-wp-rest-server.php(1143): WP_REST_Widget_Types_Controller->encode_form_data(Object(WP_REST_Request))
+#4 /Applications/XAMPP/xamppfiles/htdocs/van/wp-includes/rest-api/class-wp-rest-server.php(990): WP_ in /Applications/XAMPP/xamppfiles/htdocs/van/wp-content/themes/setsail/framework/modules/woocommerce/widgets/woocommerce-dropdown-cart/woocommerce-dropdown-cart.php on line 37
+
+2022-08-26T05:13:39+00:00 CRITICAL Uncaught Error: Call to a member function get_cart() on null in /Applications/XAMPP/xamppfiles/htdocs/van/wp-content/themes/setsail/framework/modules/woocommerce/widgets/woocommerce-dropdown-cart/woocommerce-dropdown-cart.php:37
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/van/wp-includes/widgets.php(1257): SetSailSelectClassWoocommerceDropdownCart->widget(Array, Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/van/wp-includes/rest-api/endpoints/class-wp-rest-widget-types-controller.php(548): the_widget('SetSailSelectCl...', Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/van/wp-includes/rest-api/endpoints/class-wp-rest-widget-types-controller.php(518): WP_REST_Widget_Types_Controller->get_widget_preview('SetSailSelectCl...', Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/van/wp-includes/rest-api/class-wp-rest-server.php(1143): WP_REST_Widget_Types_Controller->encode_form_data(Object(WP_REST_Request))
+#4 /Applications/XAMPP/xamppfiles/htdocs/van/wp-includes/rest-api/class-wp-rest-server.php(990): WP_ in /Applications/XAMPP/xamppfiles/htdocs/van/wp-content/themes/setsail/framework/modules/woocommerce/widgets/woocommerce-dropdown-cart/woocommerce-dropdown-cart.php on line 37
+
+2022-08-26T05:20:06+00:00 CRITICAL Uncaught Error: Call to a member function get_cart() on null in /Applications/XAMPP/xamppfiles/htdocs/van/wp-content/themes/setsail/framework/modules/woocommerce/widgets/woocommerce-dropdown-cart/woocommerce-dropdown-cart.php:37
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/van/wp-includes/widgets.php(1257): SetSailSelectClassWoocommerceDropdownCart->widget(Array, Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/van/wp-includes/rest-api/endpoints/class-wp-rest-widget-types-controller.php(548): the_widget('SetSailSelectCl...', Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/van/wp-includes/rest-api/endpoints/class-wp-rest-widget-types-controller.php(518): WP_REST_Widget_Types_Controller->get_widget_preview('SetSailSelectCl...', Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/van/wp-includes/rest-api/class-wp-rest-server.php(1143): WP_REST_Widget_Types_Controller->encode_form_data(Object(WP_REST_Request))
+#4 /Applications/XAMPP/xamppfiles/htdocs/van/wp-includes/rest-api/class-wp-rest-server.php(990): WP_ in /Applications/XAMPP/xamppfiles/htdocs/van/wp-content/themes/setsail/framework/modules/woocommerce/widgets/woocommerce-dropdown-cart/woocommerce-dropdown-cart.php on line 37
+

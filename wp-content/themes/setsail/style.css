@@ -1,0 +1,43 @@
+/*
+Theme Name: SetSail
+Theme URI: http://setsail.qodeinteractive.com
+Description: Travel Agency Theme
+Author: Select Themes
+Author URI: http://themeforest.net/user/select-themes
+Text Domain: setsail
+Tags: one-column, two-columns, three-columns, four-columns, left-sidebar, right-sidebar, custom-menu, featured-images, flexible-header, post-formats, sticky-post, threaded-comments, translation-ready
+Version: 1.7
+License: GNU General Public License
+License URI: licence/GPL.txt
+
+CSS changes can be made in files in the /css/ folder. This is a placeholder file required by WordPress, so do not delete it.
+
+*/
+.qodef-search-ordering-holder .qodef-search-ordering-list{
+	display: none;
+}
+.qodef-tour-item-single-holder .qodef-tour-item-section.qodef-information-section .qodef-tour-item-price-holder,
+.qodef-tours-standard-item-top-content,
+.qodef-tour-item-single-holder .qodef-tour-item-section.qodef-information-section .qodef-reviews-list-info,
+.qodef-tour-item-single-holder .qodef-tour-item-section .qodef-tour-item-short-info,
+.qodef-tour-item-single-holder .qodef-tour-item-section.qodef-information-section .qodef-tour-item-title{
+	display: none;
+}
+.qodef-page-content-is-boxed.qodef-content-overlapping .qodef-tour-item-single-holder .qodef-tour-item-title-holder{
+	margin: 0 !important;
+}
+.qodef-tour-item-single-holder .qodef-tour-item-section .qodef-tour-main-info-holder .qodef-tours-checked-attributes{
+	display: none;
+}
+.qodef-tour-item-single-holder .qodef-tour-item-section .qodef-tour-main-info-holder .qodef-tours-unchecked-attributes {
+	display: none;
+}
+.qodef-tour-item-single-holder .qodef-tour-item-section .qodef-location-part .qodef-location-content{
+	padding-top: 0 !important;
+}
+.cf7_custom_style_3 input.wpcf7-form-control.wpcf7-text, .cf7_custom_style_3 input.wpcf7-form-control.wpcf7-number, .cf7_custom_style_3 input.wpcf7-form-control.wpcf7-date, .cf7_custom_style_3 textarea.wpcf7-form-control.wpcf7-textarea, .cf7_custom_style_3 select.wpcf7-form-control.wpcf7-select, .cf7_custom_style_3 input.wpcf7-form-control.wpcf7-quiz{
+	border: 1px solid rgb(0 0 0 / 17%);
+}
+.vc_custom_1661767456532{
+	box-shadow: 1px 1px 10px 4px rgb(0 0 0 / 10%) !important;
+}
